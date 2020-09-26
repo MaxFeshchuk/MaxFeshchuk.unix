@@ -5,5 +5,5 @@ echo "by Johns Hopkins University on [coursera.org](https://www.coursera.org/)  
 echo "<br/>**Curent date:** " >> README.md
 date >> README.md
 echo "<br/>**Total line:** " >> README.md
-wc -l guessinggame.sh | grep -o "[0-9]" >> README.md
+wc -l guessinggame.sh | grep -o "[0-9]{1,}" >> README.md
 echo "<br/>*[link to Git Pages](https://maxfeshchuk.github.io/MaxFeshchuk.unix/Unix/)*" >> README.md
